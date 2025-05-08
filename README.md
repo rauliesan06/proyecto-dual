@@ -30,25 +30,25 @@ Versión 2 (almacenamiento en base de datos)
 
 # Estructura del proyecto
 gestbank/
-├── app/
-│   ├── __init__.py
-│   ├── database.py
-│   ├── main.py
-│   ├── models.py
-├── static/
-│   ├── css/
-│   │   └── styles.css
-│   ├── images/
-│   │   └── logo-web.png
-│   ├── js/
-│   │   ├── script.js
-│   │   └── v2.js
-├── templates/
-│   ├── gestbankv1.html
-│   ├── gestbankv2.html
-│   ├── index.html
-├── requirements.txt
-└── README.md
+|-- app/
+|   |-- __init__.py
+|   |-- database.py
+|   |-- main.py
+|   |-- models.py
+|-- static/
+|   |-- css/
+|   |   |-- styles.css
+|   |-- images/
+|   |   |-- logo-web.png
+|   |-- js/
+|   |   |-- script.js
+|   |   |-- v2.js
+|-- templates/
+|   |-- gestbankv1.html
+|   |-- gestbankv2.html
+|   |-- index.html
+|-- requirements.txt
+|-- README.md
 
 # Tecnologías utilizadas
 
