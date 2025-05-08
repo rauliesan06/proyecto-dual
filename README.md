@@ -29,7 +29,7 @@ Versión 2 (almacenamiento en base de datos)
 
 
 # Estructura del proyecto
-gestbank/
+gestbank
 |-- app/
 |   |-- __init__.py
 |   |-- database.py
@@ -49,7 +49,6 @@ gestbank/
 |   |-- index.html
 |-- requirements.txt
 |-- README.md
-
 
 # Tecnologías utilizadas
 
