@@ -30,8 +30,11 @@ Versión 2 (almacenamiento en base de datos)
 
 # Estructura del proyecto
 gestbank/
+
 |-- app/
+
 |   |-- __init__.py
+
 |   |-- database.py
 |   |-- main.py
 |   |-- models.py
