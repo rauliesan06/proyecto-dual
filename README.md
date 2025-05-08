@@ -50,6 +50,7 @@ gestbank/
 |-- requirements.txt
 |-- README.md
 
+
 # Tecnologías utilizadas
 
 Backend: FastAPI, SQLAlchemy, Pydantic
