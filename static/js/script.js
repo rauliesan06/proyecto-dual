@@ -3,7 +3,7 @@ document.getElementById('iban').addEventListener('input', reviewIban);
 function reviewIban(){
     let iban = document.getElementById('iban').value
     let ibanError = document.getElementById('ibanError')
-    if(iban.length !== 24){
+    if(!iban.startsWith('ES') || iban.length !== 24){
         ibanError.style.display = "block"
     } else{
         ibanError.style.display = "none"
@@ -16,7 +16,7 @@ function validarFormulario(event) {
 
     event.preventDefault(); // Evita que el formulario se envíe
     
-    if (iban.length !== 24) {
+    if (!iban.startsWith('ES') || iban.length !== 24) {
         return;
     }
 
